@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <div class="gj-head wrap">
+  <div class="gj-head wrap defaults_dataid" data-id="2-0-126-0-0-0-1-国际高中择校">
     <div class="head-l fl">
       <img src="images/logo.png" alt="">
       <span class="sc-logo">
@@ -42,21 +42,21 @@
       <div class="bd">
         <ul>
           <li>
-            <a href="">
+            <a href="javascript:void(0)" onclick="ECHATCustomMiniChat()">
               <img src="images/banner_1.png" alt="">
             </a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="">
+            <a href="javascript:void(0)" onclick="ECHATCustomMiniChat()">
               <img src="images/banner_1.png" alt="">
             </a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="">
+            <a href="javascript:void(0)" onclick="ECHATCustomMiniChat()">
               <img src="images/banner_1.png" alt="">
             </a>
           </li>
@@ -76,17 +76,17 @@
             <div class="detail-title">广东华侨中学国际课程</div>
             <p>
               广东华侨中学（简称“侨中”）是直属于广州市教育局领导的国家级示范性高中，是全省唯一以“广东”冠名的华侨中学，是广东省中华文化传承基地和广州市基础教育国际交流与合作基地。跨越世纪长河，学脉赓续不息。广东华侨中学创建于1930年，前身是四邑中学。建校88年以来，始终与民族命运共浮沉，与时代脉搏同起伏，历经数度播迁拆并
-              <a href="">【详情】</a>
+              <a href="javascript:void(0)" onclick="ECHATCustomMiniChat()">【详情】</a>
             </p>
             <div class="rx">
               <i class="icon"></i>
               <span>咨询热线：18988787153</span>
             </div>
             <div class="detail-btn">
-              <a href="" class="gj-blue-btn">
+              <a href="javascript:void(0)" onclick="ECHATCustomMiniChat()" class="gj-blue-btn">
                 <span>咨询报名</span><i class="icon"></i>
               </a>
-              <a href="" class="gj-red-btn">
+              <a href="javascript:void(0)" class="gj-red-btn popup-show">
                 <span>预约探校</span><i class="icon"></i>
               </a>
             </div>
@@ -97,10 +97,10 @@
         <div class="r-visit">
           <div class="v-title">2020预约<span>探校入口</span></div>
           <div class="v-subtitle">报名有福利，免费体验课开班倒计时</div>
-          <div class="v-time">
-            <span class="h">20</span> :
-            <span class="m">44</span> :
-            <span class="s">36</span>
+          <div class="v-time" id="countdown">
+            <span class="h" id="h">20</span> :
+            <span class="m" id="m">44</span> :
+            <span class="s" id="s">36</span>
           </div>
           <form class="sign-in">
             <input type="text" placeholder="请输入您的姓名" class="user-name">
@@ -234,9 +234,9 @@
             </li>
           </ul>
           <div class="l-btn">
-            <a href="" class="active">查看招生详情</a>
-            <a href="">预约在线测评</a>
-            <a href="">免费入学咨询</a>
+            <a href="javascript:void(0)" onclick="ECHATCustomMiniChat()" class="active">查看招生详情</a>
+            <a href="javascript:void(0)" class="popup-show">预约在线测评</a>
+            <a href="javascript:void(0)" onclick="ECHATCustomMiniChat()">免费入学咨询</a>
           </div>
         </div>
         <div class="zs-r fr">
@@ -336,10 +336,10 @@
           </ul>
         </div>
         <div class="ap-r fr">
-          <a href="" class="gj-blue-btn">
+          <a href="javascript:void(0)" onclick="ECHATCustomMiniChat()" class="gj-blue-btn">
             <span>咨询学费详情</span><i class="icon"></i>
           </a>
-          <a href="" class="gj-red-btn">
+          <a href="javascript:void(0)" class="gj-red-btn popup-show">
             <span>免费预约探校</span><i class="icon"></i>
           </a>
         </div>
@@ -395,7 +395,7 @@
     </div>
 
   </div>
-  <div class="gt-ca">
+  <div class="gj-ca">
     <div class="wrap">
       <div class="gj-title">
         <span>常见答疑</span>/ Common answer
@@ -448,12 +448,12 @@
       </div>
     </div>
   </div>
-  <div class="gt-ce">
+  <div class="gj-ce">
     <div class="wrap">
       <div class="ce-l fl">
         <div class="gj-title">
           <span>校园环境</span>/ Campus environment
-          <a href="" class="more fr">更多&gt;</a>
+          <a href="javascript:void(0)" onclick="ECHATCustomMiniChat()" class="more fr">更多&gt;</a>
         </div>
         <div id="campus" class="ce-lbt">
           <div class="bd">
@@ -481,7 +481,7 @@
       <div class="ce-r fr">
         <div class="gj-title">
           <span>活动图集</span>/ Atlas of activity
-          <a href="" class="more fr">更多&gt;</a>
+          <a href="javascript:void(0)" onclick="ECHATCustomMiniChat()" class="more fr">更多&gt;</a>
         </div>
         <div id="activity" class="ce-lbt">
           <div class="bd">
@@ -507,8 +507,63 @@
       </div>
     </div>
   </div>
+  <div class="gj-footer">
+    版权所有 深圳市诺达教育股份有限公司 © <a href="https://www.thea.cn">www.thea.cn</a> All Rights Reserved 粤ICP备10032899号
+  </div>
 
+  <div class="susp-site"></div>
+  <div class="gj-susp">
+    <div class="wrap">
+      <form class="sign-in">
+        <input type="text" placeholder="请输入您孩子的姓名" class="user-name">
+        <input type="text" placeholder="请输入家长手机号码" class="user-tel">
+        <input type="submit" value="免费预约">
+      </form>
+    </div>
+  </div>
+
+  <div class="gj-popup" id="popup">
+		<div class="masklayer"></div>
+		<div class="popup-cont">
+			<i class="popup-close"></i>
+			<form class="sign-in">
+				<input type="text" placeholder="请输入您的姓名" class="user-name">
+				<input type="text" placeholder="请输入您的电话" class="user-tel">
+        <input type="submit" value="立即预约">
+        <a href="javascript:void(0)" onclick="ECHATCustomMiniChat()">在线咨询</a>
+			</form>
+		</div>
+	</div>
+
+  <script type="text/javascript" src="https://img.thea.cn/public/js/thea.ms.form.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
+  <!-- 800咨询软件 -->
+  <script type="text/javascript">
+    var _echatServer = ['v.rainbowred.com'];
+    window._echat = window._echat || function () { (_echat.q = _echat.q || []).push(arguments) }; _echat.l = +new Date;
+    _echat('initParam', { companyId: 378 });
+    _echat('initParam', { echatTag: '竞价-国际' });
+    (function () {
+      var echat = document.createElement('script');
+      echat.type = 'text/javascript';
+      echat.async = true;
+      echat.id = 'echatmodulejs';
+      echat.setAttribute('charset', 'UTF-8');
+      echat.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'vs.rainbowred.com/visitor/echat.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(echat, s);
+    })();
+    function ECHATCustomMiniChat(echatTag, visEvt, lan, metaData, myData, routeEntranceId) {
+      var customObj = {};
+      echatTag && (customObj.echatTag = echatTag);
+      visEvt && (customObj.visEvt = JSON.stringify(visEvt));
+      lan && (customObj.lan = lan);
+      metaData && (customObj.metaData = metaData);
+      myData && (customObj.myData = myData);
+      routeEntranceId && (customObj.routeEntranceId = routeEntranceId);
+      ECHAT.customMiniChat(customObj);
+    }
+  </script>
 </body>
 
 </html>
